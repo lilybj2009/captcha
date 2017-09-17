@@ -9,6 +9,7 @@ public class Test {
         System.out.print("--------- start -----------");
 
         System.out.print("---------- do something ---------");
+        System.out.print("---------- do something 2 ---------");
 
         System.out.print("--------- end -----------");
     }
