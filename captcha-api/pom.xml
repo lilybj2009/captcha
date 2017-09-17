@@ -11,6 +11,10 @@
 	<artifactId>captcha-api</artifactId>
 	<packaging>jar</packaging>
 
+	<build>
+		<finalName>captcha-api</finalName>
+	</build>
+
 	<dependencies>
 		
 		<!-- log begin -->

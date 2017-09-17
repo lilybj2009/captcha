@@ -23,7 +23,7 @@ import com.oschina.captcha.image.util.ImageCaptchaUtils;
  *
  */
 public class ImageCaptchaService implements CaptchaService<ImageCaptchaRequest, ImageCaptchaResponse> {
-	private Logger logger = LoggerFactory.getLogger(this.getClass());
+	protected Logger logger = LoggerFactory.getLogger(this.getClass());
 	
 	protected int timeout = 20;//存取缓存操作响应超时时间(毫秒数)
 	

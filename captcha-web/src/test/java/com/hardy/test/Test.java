@@ -5,7 +5,11 @@ package com.hardy.test;
  */
 public class Test {
 
-    public void test() throws Exception {
-        System.out.print("--------- OK -----------");
+    public static void main(String[] args) throws Exception {
+        System.out.print("--------- start -----------");
+
+
+
+        System.out.print("--------- end -----------");
     }
 }
